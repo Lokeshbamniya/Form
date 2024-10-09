@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST['message'];
 
     // ईमेल भेजने के लिए सेटिंग्स
-    $to = "your-email@example.com";  // यहाँ अपना ईमेल डालें
+    $to = "bamniyalokesh534@gmail.com";  // यहाँ अपना ईमेल डालें
     $subject = "New Form Submission";
     $body = "Name: $name\nEmail: $email\nMessage: $message";
     $headers = "From: $email";
